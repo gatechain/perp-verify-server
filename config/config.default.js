@@ -13,7 +13,8 @@ module.exports = appInfo => {
     },
     contractRightMap: {
       USDC: 0,
-      USDT: 1
+      USDT: 1,
+      USD: 2
     }
   }
 
