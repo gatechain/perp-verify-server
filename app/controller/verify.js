@@ -38,7 +38,7 @@ class VerifyController extends Controller {
         const body = JSON.parse(data.data.toString())
         ctx.logger.info('body:', body)
 
-        const bjjkey = data.data.key
+        const bjjkey = body.data.key
         if (!bjjkey) {
             return ctx.body = false
         }
