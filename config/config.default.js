@@ -20,7 +20,7 @@ module.exports = appInfo => {
 
   config.perpContract = {
     85: {
-      GateChain: '0x609d24024F3DFe4cB5021A2686b8B67c3db6A0dd',
+      GateChain: '0x18A3fedEF93a85eD6C4A875f11B0965dD43044F5',
     }
   }
   config.domain = 'http://114.55.43.108:13453'

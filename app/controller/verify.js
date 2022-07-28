@@ -14,7 +14,7 @@ class VerifyController extends Controller {
 
         const address_ = service.verify.unAddress(BJJKey, chainId, signature);
         // TODO 比较 address 和 address_ 是否一致
-        if (address !== address_) {
+        if (address.toLowerCase() !== address_.toLowerCase()) {
             return ctx.body = false
         }
 
